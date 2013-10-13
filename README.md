@@ -6,7 +6,9 @@ Solves for Prime Implicants given the number of input variables and minterms
 Inspiration: For my Advanced Logic Design class, I was frustrated with solving for the prime implicants of a truth table by hand. I became even more frustrated when I could not find a solver online. So I made one in Java. Feel free to use the code. Please credit me if you do.
 
 Here is an example of how the program works:
+
 Program inputs: <num input vars> <minterm list>
+
 num input vars: Integer for the number of input variables in the truth table
 minterm list: The minterms in the truth table of interest
 

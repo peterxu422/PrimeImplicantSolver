@@ -29,7 +29,7 @@ public class Generator {
 				minTerms[i] = Integer.parseInt(str_minTerms[i]);
 			
 		} catch(NumberFormatException nfe) {
-			System.out.println("1) " + errormsg);
+			System.out.println(errormsg);
 			System.exit(1);
 		}
 		
@@ -124,7 +124,7 @@ public class Generator {
 		List<Integer> n1Idxs =  prev.getNum1Indices();
 		Vector<Tuple> t = prev.getTuples();
 		
-		int j = (n1Idxs.get(0) == 0) ? n1Idxs.get(1) : 0;
+		int j = (n1Idxs.get(0) == 0 && n1Idxs.size() > 1) ? n1Idxs.get(1) : 0;
 		int k;
 
 		for(int i=0; i < n1Idxs.get(n1Idxs.size()-1); i++) {
