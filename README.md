@@ -17,10 +17,10 @@ Example:
 
 <pre><code>
 java -jar PIGenerator.jar 4 "0 2 3 4 5 6 7 8 9 10 11 12 13"
-</code></pre>
+
 
 Column 1 
-<pre><code>
+
   (0) 0000 x
   (2) 0010 x
   (4) 0100 x
@@ -34,10 +34,10 @@ Column 1
   (7) 0111 x
  (11) 1011 x
  (13) 1101 x
-</code></pre>
+
 
 Column 2 
-<pre><code>
+
    (0,2) 00x0 x
    (0,4) 0x00 x 
    (0,8) x000 x 
@@ -59,10 +59,10 @@ Column 2
   (9,13) 1x01 x
  (10,11) 101x x
  (12,13) 110x x
-</code></pre>
+
 
 Column 3 
-<pre><code>
+
      (0,2,4,6) 0xx0 _
     (0,2,8,10) x0x0 _
     (0,4,8,12) xx00 _
@@ -72,9 +72,7 @@ Column 3
    (4,5,12,13) x10x _
    (8,9,10,11) 10xx _
    (8,9,12,13) 1x0x _
-</code></pre>
 
 Prime Implicants
-<pre><code>
 A'D'  B'D'  C'D'  A'C  B'C  A'B  BC'  AB'  AC'  
 </code></pre>
