@@ -10,6 +10,7 @@ Here is an example of how the program works:
 Program inputs: <num input vars> <minterm list>
 
 num input vars: Integer for the number of input variables in the truth table
+
 minterm list: The minterms in the truth table of interest
 
 Example:
@@ -61,7 +62,7 @@ Column 2
 </code></pre>
 
 Column 3 
-
+<pre><code>
      (0,2,4,6) 0xx0 _
     (0,2,8,10) x0x0 _
     (0,4,8,12) xx00 _
@@ -71,9 +72,9 @@ Column 3
    (4,5,12,13) x10x _
    (8,9,10,11) 10xx _
    (8,9,12,13) 1x0x _
-
+</code></pre>
 
 Prime Implicants
-
+<pre><code>
 A'D'  B'D'  C'D'  A'C  B'C  A'B  BC'  AB'  AC'  
-
+</code></pre>
