@@ -14,10 +14,12 @@ minterm list: The minterms in the truth table of interest
 
 Example:
 
+<pre><code>
 java -jar PIGenerator.jar 4 "0 2 3 4 5 6 7 8 9 10 11 12 13"
+</code></pre>
 
 Column 1 
-
+<pre><code>
   (0) 0000 x
   (2) 0010 x
   (4) 0100 x
@@ -31,10 +33,9 @@ Column 1
   (7) 0111 x
  (11) 1011 x
  (13) 1101 x
-
+</code></pre>
 
 Column 2 
-
 <pre><code>
    (0,2) 00x0 x
    (0,4) 0x00 x 
